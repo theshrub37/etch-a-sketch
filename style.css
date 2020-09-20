@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#mainDiv {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+.rowDiv {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+}
+
+.borderDiv {
+    border: 1px black solid;
+}
